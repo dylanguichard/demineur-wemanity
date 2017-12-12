@@ -1,0 +1,60 @@
+#titleBloc{
+	text-align: center;
+}
+#titleBloc h1{
+	margin-bottom: 10px;
+}
+#titleBloc h2{
+	font-size: 8px;
+	color: #888;
+	margin-bottom: 10px;
+}
+
+#dem{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+.el{
+	display: inline-block;
+	background-color: #222;
+	width: 48px;
+	height: 48px;
+	font-size: 25px;
+	line-height: 50px;
+	color: #222;
+	text-align: center;
+	border: 1px solid #444;
+	cursor: pointer;
+}
+
+.el:hover{
+	background-color: #333; 
+	color: #333;
+}
+
+.end{
+	display: none;
+	margin: auto;
+}
+
+#win{
+	width: 630px;
+}
+#win img{
+	width: 100%;
+}
+
+#loose{
+	width: 450px;
+}
+
+#showBomb{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#btnShowBomb{
+	padding: 5px;
+}
